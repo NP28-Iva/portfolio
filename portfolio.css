@@ -1,0 +1,115 @@
+/* Базові стилі */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background: linear-gradient(180deg, #F0F2F5 0%, #FFFFFF 100%);
+    color: #0D0D2B;
+  }
+  
+  
+  .about {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 40px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+  }
+  
+  
+  .about h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .projects {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 40px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+  }
+  
+  
+  .projects h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 32px;
+  }
+  
+  .project {
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 30px;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.05);
+  }
+  
+  .project h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  
+  .project p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #4D4D4D;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #3671E9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 32px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: transparent;
+    border: 1px solid #3671E9;
+    color: #3671E9;
+  }
+    
+  .contact {
+    max-width: 800px;
+    margin: 60px auto 100px;
+    padding: 40px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+  }
+  
+  .contact h2 {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+  
+  .contact p {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+  
+  .contact a {
+    color: #3671E9;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
